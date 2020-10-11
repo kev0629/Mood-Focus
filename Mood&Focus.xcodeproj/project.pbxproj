@@ -3,22 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3327E7DF2533C07800BF2995 /* IconsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327E7DE2533C07800BF2995 /* IconsView.swift */; };
-		3327E7E42533C11E00BF2995 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3327E7E32533C11E00BF2995 /* SliderView.swift */; };
 		335B605925276FCF0014F4B3 /* Mood_FocusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B605825276FCF0014F4B3 /* Mood_FocusApp.swift */; };
 		335B605B25276FCF0014F4B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B605A25276FCF0014F4B3 /* ContentView.swift */; };
 		335B605D25276FD20014F4B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335B605C25276FD20014F4B3 /* Assets.xcassets */; };
 		335B606025276FD20014F4B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335B605F25276FD20014F4B3 /* Preview Assets.xcassets */; };
 		335B606B25276FD20014F4B3 /* Mood_FocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B606A25276FD20014F4B3 /* Mood_FocusTests.swift */; };
 		335B607625276FD20014F4B3 /* Mood_FocusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B607525276FD20014F4B3 /* Mood_FocusUITests.swift */; };
-		33C0952B2533960E00945876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C0952A2533960E00945876 /* AppDelegate.swift */; };
-		88B4CD875DC1260CD91F74E3 /* Pods_Mood_FocusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30F589A1456CFFA0C4D7776 /* Pods_Mood_FocusTests.framework */; };
-		A22387F79DB86B447F8DB53A /* Pods_Mood_Focus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A66E15CA3E56009F7BD1661E /* Pods_Mood_Focus.framework */; };
-		D61D9ECC4040E5574146F725 /* Pods_Mood_Focus_Mood_FocusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE5D93A304C8EE0B83F1A170 /* Pods_Mood_Focus_Mood_FocusUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +33,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C7646F1595B89ED32A75EFF /* Pods-Mood&Focus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mood&Focus.release.xcconfig"; path = "Target Support Files/Pods-Mood&Focus/Pods-Mood&Focus.release.xcconfig"; sourceTree = "<group>"; };
-		234EC1CEFEB69C34DBB65C5F /* Pods-Mood&Focus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mood&Focus.debug.xcconfig"; path = "Target Support Files/Pods-Mood&Focus/Pods-Mood&Focus.debug.xcconfig"; sourceTree = "<group>"; };
-		303AE363C48CF49DB4D8CC8E /* Pods-Mood&FocusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mood&FocusTests.debug.xcconfig"; path = "Target Support Files/Pods-Mood&FocusTests/Pods-Mood&FocusTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3327E7DE2533C07800BF2995 /* IconsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsView.swift; sourceTree = "<group>"; };
-		3327E7E32533C11E00BF2995 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		335B605525276FCF0014F4B3 /* Mood&Focus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mood&Focus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		335B605825276FCF0014F4B3 /* Mood_FocusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_FocusApp.swift; sourceTree = "<group>"; };
 		335B605A25276FCF0014F4B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,13 +45,6 @@
 		335B607125276FD20014F4B3 /* Mood&FocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mood&FocusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		335B607525276FD20014F4B3 /* Mood_FocusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood_FocusUITests.swift; sourceTree = "<group>"; };
 		335B607725276FD20014F4B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33C0952A2533960E00945876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35D1D224037FF757A78B63C2 /* Pods-Mood&FocusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mood&FocusTests.release.xcconfig"; path = "Target Support Files/Pods-Mood&FocusTests/Pods-Mood&FocusTests.release.xcconfig"; sourceTree = "<group>"; };
-		40A74DE2909E2C78CA488A22 /* Pods-Mood&Focus-Mood&FocusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mood&Focus-Mood&FocusUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mood&Focus-Mood&FocusUITests/Pods-Mood&Focus-Mood&FocusUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		47B78D58FCFEF4962E16483D /* Pods-Mood&Focus-Mood&FocusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mood&Focus-Mood&FocusUITests.release.xcconfig"; path = "Target Support Files/Pods-Mood&Focus-Mood&FocusUITests/Pods-Mood&Focus-Mood&FocusUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A66E15CA3E56009F7BD1661E /* Pods_Mood_Focus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mood_Focus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE5D93A304C8EE0B83F1A170 /* Pods_Mood_Focus_Mood_FocusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mood_Focus_Mood_FocusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F30F589A1456CFFA0C4D7776 /* Pods_Mood_FocusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mood_FocusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22387F79DB86B447F8DB53A /* Pods_Mood_Focus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88B4CD875DC1260CD91F74E3 /* Pods_Mood_FocusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D61D9ECC4040E5574146F725 /* Pods_Mood_Focus_Mood_FocusUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +79,6 @@
 				335B606925276FD20014F4B3 /* Mood&FocusTests */,
 				335B607425276FD20014F4B3 /* Mood&FocusUITests */,
 				335B605625276FCF0014F4B3 /* Products */,
-				E67030B782E7607ED9B6C80C /* Pods */,
-				AEE3BE7488082834D0FEC222 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,10 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				335B605825276FCF0014F4B3 /* Mood_FocusApp.swift */,
-				3327E7E32533C11E00BF2995 /* SliderView.swift */,
-				33C0952A2533960E00945876 /* AppDelegate.swift */,
 				335B605A25276FCF0014F4B3 /* ContentView.swift */,
-				3327E7DE2533C07800BF2995 /* IconsView.swift */,
 				335B605C25276FD20014F4B3 /* Assets.xcassets */,
 				335B606125276FD20014F4B3 /* Info.plist */,
 				335B605E25276FD20014F4B3 /* Preview Content */,
@@ -156,29 +130,6 @@
 			path = "Mood&FocusUITests";
 			sourceTree = "<group>";
 		};
-		AEE3BE7488082834D0FEC222 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A66E15CA3E56009F7BD1661E /* Pods_Mood_Focus.framework */,
-				AE5D93A304C8EE0B83F1A170 /* Pods_Mood_Focus_Mood_FocusUITests.framework */,
-				F30F589A1456CFFA0C4D7776 /* Pods_Mood_FocusTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E67030B782E7607ED9B6C80C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				234EC1CEFEB69C34DBB65C5F /* Pods-Mood&Focus.debug.xcconfig */,
-				1C7646F1595B89ED32A75EFF /* Pods-Mood&Focus.release.xcconfig */,
-				40A74DE2909E2C78CA488A22 /* Pods-Mood&Focus-Mood&FocusUITests.debug.xcconfig */,
-				47B78D58FCFEF4962E16483D /* Pods-Mood&Focus-Mood&FocusUITests.release.xcconfig */,
-				303AE363C48CF49DB4D8CC8E /* Pods-Mood&FocusTests.debug.xcconfig */,
-				35D1D224037FF757A78B63C2 /* Pods-Mood&FocusTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -186,11 +137,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335B607A25276FD20014F4B3 /* Build configuration list for PBXNativeTarget "Mood&Focus" */;
 			buildPhases = (
-				62F878FE2EF858C06528C80A /* [CP] Check Pods Manifest.lock */,
 				335B605125276FCF0014F4B3 /* Sources */,
 				335B605225276FCF0014F4B3 /* Frameworks */,
 				335B605325276FCF0014F4B3 /* Resources */,
-				4B1886955A32F2398E7AD3C5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -205,7 +154,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335B607D25276FD20014F4B3 /* Build configuration list for PBXNativeTarget "Mood&FocusTests" */;
 			buildPhases = (
-				E0A8F53A0BB36CE3225EE077 /* [CP] Check Pods Manifest.lock */,
 				335B606225276FD20014F4B3 /* Sources */,
 				335B606325276FD20014F4B3 /* Frameworks */,
 				335B606425276FD20014F4B3 /* Resources */,
@@ -224,11 +172,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 335B608025276FD20014F4B3 /* Build configuration list for PBXNativeTarget "Mood&FocusUITests" */;
 			buildPhases = (
-				DF6FE6126F0FD99B911FA1D9 /* [CP] Check Pods Manifest.lock */,
 				335B606D25276FD20014F4B3 /* Sources */,
 				335B606E25276FD20014F4B3 /* Frameworks */,
 				335B606F25276FD20014F4B3 /* Resources */,
-				6C8D7308B82506969552098F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -308,119 +254,13 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4B1886955A32F2398E7AD3C5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mood&Focus/Pods-Mood&Focus-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mood&Focus/Pods-Mood&Focus-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mood&Focus/Pods-Mood&Focus-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62F878FE2EF858C06528C80A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mood&Focus-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6C8D7308B82506969552098F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mood&Focus-Mood&FocusUITests/Pods-Mood&Focus-Mood&FocusUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Mood&Focus-Mood&FocusUITests/Pods-Mood&Focus-Mood&FocusUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mood&Focus-Mood&FocusUITests/Pods-Mood&Focus-Mood&FocusUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DF6FE6126F0FD99B911FA1D9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mood&Focus-Mood&FocusUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E0A8F53A0BB36CE3225EE077 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Mood&FocusTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		335B605125276FCF0014F4B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33C0952B2533960E00945876 /* AppDelegate.swift in Sources */,
-				3327E7DF2533C07800BF2995 /* IconsView.swift in Sources */,
 				335B605B25276FCF0014F4B3 /* ContentView.swift in Sources */,
 				335B605925276FCF0014F4B3 /* Mood_FocusApp.swift in Sources */,
-				3327E7E42533C11E00BF2995 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,7 +414,6 @@
 		};
 		335B607B25276FD20014F4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 234EC1CEFEB69C34DBB65C5F /* Pods-Mood&Focus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -596,7 +435,6 @@
 		};
 		335B607C25276FD20014F4B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C7646F1595B89ED32A75EFF /* Pods-Mood&Focus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -618,7 +456,6 @@
 		};
 		335B607E25276FD20014F4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 303AE363C48CF49DB4D8CC8E /* Pods-Mood&FocusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -640,7 +477,6 @@
 		};
 		335B607F25276FD20014F4B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35D1D224037FF757A78B63C2 /* Pods-Mood&FocusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -662,7 +498,6 @@
 		};
 		335B608125276FD20014F4B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40A74DE2909E2C78CA488A22 /* Pods-Mood&Focus-Mood&FocusUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -682,7 +517,6 @@
 		};
 		335B608225276FD20014F4B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47B78D58FCFEF4962E16483D /* Pods-Mood&Focus-Mood&FocusUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
