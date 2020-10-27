@@ -10,4 +10,5 @@ This self-assessment is offered to a pediatric population but it can also be ext
 
 
 ## Support
-for support or informations you can contact me at kevin.saffioti@gmail.com
+For support or informations you can report an issue[https://github.com/kev0629/Mood-Focus/issues] or contact me at kevin.saffioti@gmail.com
+For anny ohter request please contact me with Pull Requests[https://github.com/kev0629/Mood-Focus/issues]
