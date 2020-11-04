@@ -11,7 +11,7 @@ struct FocusIcons: View {
     var body: some View{
         HStack{
             Spacer()
-            Image("disiped")
+            Image("Satured")
                 .resizable()
                 .scaledToFit()
             Image("hard")
